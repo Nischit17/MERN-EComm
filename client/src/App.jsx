@@ -17,11 +17,8 @@ import ShoppingCheckout from "./pages/shopping-view/checkout";
 import CheckAuth from "./components/common/check-auth";
 
 function App() {
-  const isAuthenticated = true;
-  const user = {
-    name: "nischit",
-    role: "user",
-  };
+  const isAuthenticated = false;
+  const user = null;
 
   return (
     <div className="flex flex-col overflow-hidden bg-white">
